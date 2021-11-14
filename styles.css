@@ -99,4 +99,7 @@ footer {
   .col-texto {
     margin: 0 10px;
   }
+  .quadros:active {
+    color: var(--tertiary-color);
+  }
 }
