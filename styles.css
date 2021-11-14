@@ -19,10 +19,6 @@ body {
 main {
   padding: 10px 80px;
 }
-footer {
-  display: flex;
-  justify-content: center;
-}
 h1 {
   color: var(--secondary-color);
   font-size: 44px;
@@ -32,25 +28,22 @@ h2 {
   font-size: 22px;
 }
 p {
+  font-size: 18px;
+}
+footer {
+  padding-top: 20px;
+}
+.quadros {
   background: var(--secondary-color);
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  font-size: 18px;
   margin: 0;
   margin-top: 20px;
   padding: 30px 20px;
   transition: all 150ms ease-in-out;
 }
-p:hover {
+.quadros:hover {
   background-color: var(--tertiary-color);
-}
-i {
-  color: var(--primary-color);
-  font-size: 24px;
-  padding-left: 25px;
-}
-i:hover {
-  color: var(--tertiary-color);
 }
 .content {
   display: flex;
@@ -62,8 +55,27 @@ i:hover {
 .col-texto {
   margin: 0 40px;
 }
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links a {
+  color: var(--primary-color);
+  font-size: 24px;
+  padding-left: 25px;
+}
+.links a:hover {
+  color: var(--tertiary-color);
+}
 .icon {
   padding: 0;
+}
+.repo-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.repo-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
